@@ -1,0 +1,8 @@
+{
+    "name": "en",
+    "tokens": {
+        "command-ai_generate-desc":"Ask an AI about someting",
+
+        "command-admin_root-help": "Available sub-commands:"
+        }
+}

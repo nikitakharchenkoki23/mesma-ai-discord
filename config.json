@@ -1,0 +1,26 @@
+{
+    "token": "Bot token",
+    "prefix": "!",
+    "adminId": "yourID",
+    "version": "1.0",
+    "default_ai_provider": "lms",
+    "default_ai_model": "openai/gpt-oss-20b",
+    "ai_providers": {
+        "lms": {
+            "name": "lms",
+            "base_url": "http://localhost:1234",
+            "endpoints": {
+                "post_message": "api/v1/chat",
+                "get_models": "api/v1/models"
+            }
+        },
+        "ollama": {
+            "name": "ollama",
+            "base_url": "http://localhost:1234",
+            "endpoints": {
+                "post_message": "",
+                "get_models": ""
+            }
+        }
+    }
+}
